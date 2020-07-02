@@ -10,10 +10,10 @@ public class loan implements Comparable<loan>{
     }
 
     public int compareTo(loan loanInfo){
-        if (tenure==loanInfo.tenure){
+        if (loanAmount==loanInfo.loanAmount){
             return 0;
         }
-        else if(tenure>loanInfo.tenure){
+        else if(loanAmount>loanInfo.loanAmount){
             return 1;
         }
         else
