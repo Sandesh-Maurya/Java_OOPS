@@ -9,6 +9,7 @@ public class sort_instance{
         loan_obj.add(new loan(120000,8,"Teja"));
 
         Collections.sort(loan_obj);
+        System.out.println("Sorting on the basis of Tenure");
         for(loan elem:loan_obj){
             System.out.println(elem.loanAmount+" "+elem.tenure+" "+elem.loanApplicantName);
         }
